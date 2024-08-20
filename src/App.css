@@ -1,38 +1,19 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navbar {
+    background-color: #283747; /* Color oscuro para la barra de navegación */
+    padding: 10px;
+    text-align: center; /* Opcional: centrar contenido dentro de la barra */
+    border-bottom: 3px solid #1c2b36; /* Borde inferior con un color ligeramente más oscuro */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada para darle profundidad */
+    border-radius: 5px; /* Bordes redondeados (opcional) */
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .centered-heading {
+    color: #ffffff; /* Color del texto blanco para contrastar con el fondo oscuro */
+    margin: 0; /* Eliminar margen si es necesario */
+    font-family: 'Georgia', serif; /* Cambiar la fuente */
+    font-size: 2rem; /* Cambiar el tamaño de la fuente */
+    font-weight: bold; /* Hacer el texto en negrita */
+    letter-spacing: 1px; /* Espaciado entre letras */
+    text-transform: uppercase; /* Transformar el texto a mayúsculas */
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  
